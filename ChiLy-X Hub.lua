@@ -25,8 +25,11 @@ local Tabs = {
 }
 local Options = Fluent.Options
 
-local Key = "lethanhdat_yeuem"
-local Key2 = "lop8a2"
+local Key = {
+    Key = Window:AddKey({ Title = "lethanhdat_yeuem"
+    Key2 = Window:AddKey2({ Title = "lop8a2"  
+
+do
 --------------------------------------------------------------------------------------------------------------------------------------------
     repeat wait() until game.Players
     repeat wait() until game.Players.LocalPlayer
