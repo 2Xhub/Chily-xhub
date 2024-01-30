@@ -23,7 +23,7 @@ local Tabs = {
     Raid = Window:AddTab({ Title = "Raid", Icon = "swords" }),
     Race = Window:AddTab({ Title = "RaceV4", Icon = "chevrons-right" }),
     Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
-	Misc = Window:AddTab({ Title = "Misc", Icon = "Fruits" }),
+	Misc = Window:AddTab({ Title = "Misc", Icon = "Candy" }),
 }
 local Options = Fluent.Options
 
@@ -6287,4 +6287,22 @@ Tabs.Notification:AddParagraph({
 	Title = "https://discord.com/invite/dBaDKVnx",
 	Content = ""
 	
+})
+
+Tabs.Notification:AddParagraph({
+    Title = "Script ra mắt 27/01/2024"
+    Content = ""
+
+})
+
+Tabs.Notification:AddParagraph({
+    Title = "Việt Nam"
+    Content = ""
+
+})
+
+Tabs.Notification:AddParagraph({
+    Title = "Đang phát triển"
+    Content = ""
+    
 })
