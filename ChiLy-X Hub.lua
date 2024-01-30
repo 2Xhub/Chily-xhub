@@ -6284,7 +6284,9 @@ Tabs.Misc:AddButton({
 })
 
 Tabs.Notification:AddParagraph({
-	Title = "https://discord.com/invite/dBaDKVnx, script được ra mắt vào ngày 27/01/2024,Me-VN",
+	Title = "https://discord.com/invite/dBaDKVnx",
+	Title = "Ngày xuất bản 27/01/2024"
+	Title = "Vn"
 	Content = ""
 	
 })
