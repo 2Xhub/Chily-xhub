@@ -3,6 +3,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
+    Key = "lethanhdat_yeuem",
     Title = "ChiLy-X Hub Uranium",
     SubTitle = "by lethanhdat_yeuem",
     TabWidth = 160,
@@ -24,10 +25,6 @@ local Tabs = {
 	Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
 }
 local Options = Fluent.Options
-
-local Key = {
-    Key = Window:AddKey({ Title = "lethanhdat_yeuem"
-    Key2 = Window:AddKey2({ Title = "lop8a2"  
 
 do
 --------------------------------------------------------------------------------------------------------------------------------------------
