@@ -13,7 +13,7 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
 })
 local Tabs = {
-    Notification = Window:AddTab({ Title = "Notification", Icon = "list-plus" }),
+    Notification = Window:AddTab({ Title = "Notification", Icon = "candy" }),
     Main = Window:AddTab({ Title = "Gereral", Icon = "home" }),
     Setting = Window:AddTab({ Title = "Setting", Icon = "settings" }),
     Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
@@ -23,7 +23,7 @@ local Tabs = {
     Raid = Window:AddTab({ Title = "Raid", Icon = "swords" }),
     Race = Window:AddTab({ Title = "RaceV4", Icon = "chevrons-right" }),
     Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
-	Misc = Window:AddTab({ Title = "Misc", Icon = "Gamer" }),
+	Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
 }
 local Options = Fluent.Options
 
@@ -6284,7 +6284,7 @@ Tabs.Misc:AddButton({
 })
 
 Tabs.Notification:AddParagraph({
-	Title = "https://discord.com/invite/dBaDKVnx        Script ra mắt 27/01/2024                             Việt Nam                                             Đang phát triển",
+	Title = "https://discord.com/invite/dBaDKVnx, script được ra mắt vào ngày 27/01/2024,Me-VN",
 	Content = ""
 	
 })
