@@ -13,7 +13,7 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
 })
 local Tabs = {
-    Notification = Window:AddTab({ Title = "Notification", Icon = "gamer" }),
+    Notification = Window:AddTab({ Title = "Notification", Icon = "list-plus" }),
     Main = Window:AddTab({ Title = "Gereral", Icon = "home" }),
     Setting = Window:AddTab({ Title = "Setting", Icon = "settings" }),
     Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
@@ -23,7 +23,7 @@ local Tabs = {
     Raid = Window:AddTab({ Title = "Raid", Icon = "swords" }),
     Race = Window:AddTab({ Title = "RaceV4", Icon = "chevrons-right" }),
     Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
-	Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
+	Misc = Window:AddTab({ Title = "Misc", Icon = "Fruits" }),
 }
 local Options = Fluent.Options
 
@@ -6281,4 +6281,10 @@ Tabs.Misc:AddButton({
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 		game.Players.localPlayer.PlayerGui.Main.Titles.Visible = true
 	end
+})
+
+Tabs.Notification:AddParagraph({
+	Title = "https://discord.com/invite/dBaDKVnx",
+	Content = ""
+	
 })
