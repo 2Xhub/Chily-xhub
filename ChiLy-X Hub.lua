@@ -13,7 +13,7 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
 })
 local Tabs = {
-    Notification = Window:AddTab({ Title = "Notification", Icon = "game" }),
+    Notification = Window:AddTab({ Title = "Notification", Icon = "gamer" }),
     Main = Window:AddTab({ Title = "Gereral", Icon = "home" }),
     Setting = Window:AddTab({ Title = "Setting", Icon = "settings" }),
     Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
@@ -2383,13 +2383,6 @@ local posX = 0
 local posY = 60
 local posZ = 0
 ----------------------------------------------------------------------------------------------------------------------------------------------
---Notification
-  
-   Tabs.Misc:AddParagraph({
-	Title = "https://discord.com/invite/dBaDKVnx",
-	Content = ""
-	
-})
 --Create Tabs
     Tabs.Main:AddParagraph({
         Title = "Farming",
