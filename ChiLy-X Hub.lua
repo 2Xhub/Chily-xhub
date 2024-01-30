@@ -2312,7 +2312,7 @@ ImageButton.Parent = ScreenGui
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
 ImageButton.Size = UDim2.new(0.0627121851, 0, 0.107579626, 0)
-ImageButton.Image = "rbxassetid://16172385873"
+ImageButton.Image = "rbxassetid://16172732828"
 
 UICorner.CornerRadius = UDim.new(0, 30)
 UICorner.Parent = ImageButton
@@ -2656,7 +2656,7 @@ local posZ = 0
     local SliderHealt = Tabs.Main:AddSlider("SliderHealt", {
         Title = "Health %",
         Description = "Health for mastery",
-        Default = 40,
+        Default = 25,
         Min = 0,
         Max = 100,
         Rounding = 1,
