@@ -4,9 +4,9 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Key = "lethanhdat_yeuem",
-    Title = "ChiLy-X Hub Uranium",
+    Title = "ChiLy-X Hub",
     SubTitle = "by lethanhdat_yeuem",
-    TabWidth = 160,
+    TabWidth = 150,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "White",
