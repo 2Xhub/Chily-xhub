@@ -4,7 +4,7 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Key = "lethanhdat_yeuem",
-    NotKey = "Kick KeyHome?"
+    NotKey = "Kick Key Dme?",
     Title = "ChiLy-X Hub Uranium",
     SubTitle = "by lethanhdat_yeuem",
     TabWidth = 160,
