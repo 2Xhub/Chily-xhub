@@ -6284,25 +6284,7 @@ Tabs.Misc:AddButton({
 })
 
 Tabs.Notification:AddParagraph({
-	Title = "https://discord.com/invite/dBaDKVnx",
+	Title = "https://discord.com/invite/dBaDKVnx        Script ra mắt 27/01/2024                             Việt Nam                                             Đang phát triển",
 	Content = ""
 	
-})
-
-Tabs.Notification:AddParagraph({
-    Title = "Script ra mắt 27/01/2024"
-    Content = ""
-
-})
-
-Tabs.Notification:AddParagraph({
-    Title = "Việt Nam"
-    Content = ""
-
-})
-
-Tabs.Notification:AddParagraph({
-    Title = "Đang phát triển"
-    Content = ""
-    
 })
