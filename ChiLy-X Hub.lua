@@ -4,12 +4,13 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Key = "lethanhdat_yeuem",
+    NotKey = "Kick KeyHome?"
     Title = "ChiLy-X Hub Uranium",
     SubTitle = "by lethanhdat_yeuem",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "Black",
+    Theme = "White",
     MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
 })
 local Tabs = {
@@ -4363,7 +4364,7 @@ end
 
 
 
-_G.FastAttackDelay = 0.175
+_G.FastAttackDelay = 0.15
 
     local Client = game.Players.LocalPlayer
     local STOP = require(Client.PlayerScripts.CombatFramework.Particle)
