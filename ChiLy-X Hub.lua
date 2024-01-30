@@ -2627,7 +2627,7 @@ local posZ = 0
         Content = "Auto farm your mastery"
     })
 
-    local DropdownMastery = Tabs.Main:AddDropdown("DropdownMastery", {
+    local DropdownMastery = Tabs.Main:AddDropdown("SelectMastery", {
         Title = "Farm Mode",
         Values = {"Level","Nearest",},
         Multi = false,
@@ -6285,8 +6285,6 @@ Tabs.Misc:AddButton({
 
 Tabs.Notification:AddParagraph({
 	Title = "https://discord.com/invite/dBaDKVnx",
-	Title = "Ngày xuất bản 27/01/2024"
-	Title = "Vn"
-	Content = ""
-	
+	Content = "Ngày ra mắt 27/01/2024"
+
 })
