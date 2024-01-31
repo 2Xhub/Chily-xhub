@@ -4513,7 +4513,7 @@ CamShake:Stop()
     Options.ToggleBypassTP:SetValue(true)
 end
 
-local ToggleAntiAfk = Tabs.                            Setting:Toggle("Anti AFK",true,function(value)
+local ToggleAntiAfk = Tabs.                            Setting:AddToggle("ToggleAntiAfk", {Title = "Anti Afk", Default = true })
  _G.AFK = value
  end)
 
