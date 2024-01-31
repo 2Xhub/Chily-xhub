@@ -2,6 +2,30 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 --------------------------------------------------------------------------------------------------------------------------------------------
+
+spawn(function() 
+    repeat
+        task.wait()
+    until game:IsLoaded()
+    repeat
+        task.wait()
+    until game.Players
+    repeat
+        task.wait()
+    until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
+    wait(1.5)
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>Ngày ra mắt 31/01/2024<Color=/>"):Display()
+    wait(.5)
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>Thì ChiLy-X Hub<Color=/>"):Display()
+    wait(.14)
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy sử dụng Fluxus để có trải nghiệm tốt!!<Color=/>"):Display()
+    wait(.24)
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Tham gia disocrd để cập nhật thông tin mới nhất nhé<Color=/>"):Display()
+    wait(.29)
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Channel : LETHANHDAT <Color=/>"):Display()
+    wait(.36)
+end)
+
 local Window = Fluent:CreateWindow({
     Key = "lethanhdat_yeuem",
     Title = "ChiLy-X Hub",
