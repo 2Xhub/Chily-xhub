@@ -2370,12 +2370,12 @@ local CamShake = require(game.ReplicatedStorage.Util.CameraShaker)
 CamShake:Stop()
 
     HttpService = game:GetService("HttpService")
-    local i = "Night Hub"
+    local i = "ChiLy-X HubV2"
     local j = "-BloxFruit.json"
     local l = game.Players.LocalPlayer.Name .. j
     if Adel then
         HttpService = game:GetService("HttpService")
-        local i = "Night Hub"
+        local i = "ChiLy-X HubV2"
         local j = "-BloxFruit.json"
         local l = game.Players.LocalPlayer.Name .. j
     end
@@ -2569,25 +2569,25 @@ OrionLib:MakeNotification({
 -------------Tab-----------------------
 
 local W = Window:MakeTab({
-    Name = "👋 Welcome",
+    Name = "📕 Welcome",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local M = Window:MakeTab({
-    Name = "🏠 General",
+    Name = "📺 General",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local ST = Window:MakeTab({
-    Name = "🛠️ Setting",
+    Name = "🔧 Setting",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local IQ = Window:MakeTab({
-    Name = "⚔️ Item & Quest",
+    Name = "🗡 Item & Quest",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -2876,7 +2876,7 @@ M:AddParagraph("Select Weapon","Please Select Weapon")
 local WeaponList = {"Melee","Sword","Fruit","Gun"}
 _G.SelectWeapon = "Melee"
 M:AddDropdown({
-    Name = "Select Weapon",
+    Name = "Melee",
     Default = "",
     Options = WeaponList,
     Flag = "Melee",
@@ -3714,21 +3714,12 @@ spawn(function()
             end    
         })
         
-        M:AddToggle({
-            Name = "Auto Katakuri v2[HOP]",
-            Default = false,
-            Flag = "Auto Katakuri v2[HOP]",
-            Save = true,
-            Callback = function(Value)
-                _G.Hop = Value
-            end    
-        })
 
 local Section = M:AddSection({
     Name = "Boss"
 })
 
-M:AddParagraph("Auto Farm Boss :","Chờ Update thôi ae!!!")
+M:AddParagraph("Auto Farm Boss :","Gần xong rồi")
 
     local Section = M:AddSection({
         Name = "Observation Haki"
@@ -11390,7 +11381,7 @@ spawn(function()
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
                 OrionLib:MakeNotification({
-                    Name = "Night Hub",
+                    Name = "ChiLy-X HubV2",
                     Content = "Turn Off Hop Find Moon Please",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11398,7 +11389,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Night Hub",
+                    Name = "ChiLy-X HubV2",
                     Content = "Hop Server",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11406,7 +11397,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Night Hub",
+                    Name = "ChiLy-X HubV2",
                     Content = "Hop Server",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11414,7 +11405,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Night Hub",
+                    Name = "ChiLy-X HubV2",
                     Content = "Hop Server",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11427,7 +11418,7 @@ spawn(function()
     end)
 
 OrionLib:MakeNotification({
-        Name = "Night Hub",
+        Name = "ChiLy-X HubV2",
         Content = "Loading script complete!, You can now enable the function!",
         Image = "rbxassetid://4483345998",
         Time = 5
@@ -11460,7 +11451,7 @@ end)
 OrionLib:Init()
 
 OrionLib:MakeNotification({
-    Name = "Night Hub",
+    Name = "ChiLy-X HubV2",
     Content = "Loading Config Complete!!",
     Image = "rbxassetid://4483345998",
     Time = 5
