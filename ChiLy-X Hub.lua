@@ -13,17 +13,17 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
 })
 local Tabs = {
-    Notification = Window:AddTab({ Title = "Notification", Icon = "candy" }),
-    Main = Window:AddTab({ Title = "Gereral", Icon = "home" }),
-    Setting = Window:AddTab({ Title = "Setting", Icon = "" }),
-    Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
-    Player = Window:AddTab({ Title = "Player", Icon = "baby" }),
-    Teleport = Window:AddTab({ Title = "Teleport", Icon = "palmtree" }),
-    Fruit = Window:AddTab({ Title = "Devil Fruit", Icon = "cherry" }),
-    Raid = Window:AddTab({ Title = "Raid", Icon = "swords" }),
-    Race = Window:AddTab({ Title = "RaceV4", Icon = "chevrons-right" }),
-    Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
-	Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
+    Notification = Window:AddTab({ Title = "Notification", Icon = "📺" }),
+    Main = Window:AddTab({ Title = "Gereral", Icon = "🏠" }),
+    Setting = Window:AddTab({ Title = "Setting", Icon = "🔧" }),
+    Stats = Window:AddTab({ Title = "Stats", Icon = "⚔" }),
+    Player = Window:AddTab({ Title = "Player", Icon = "📊" }),
+    Teleport = Window:AddTab({ Title = "Teleport", Icon = "🌏" }),
+    Fruit = Window:AddTab({ Title = "Devil Fruit", Icon = "🍎" }),
+    Raid = Window:AddTab({ Title = "Raid", Icon = "🗡" }),
+    Race = Window:AddTab({ Title = "RaceV4", Icon = "🔑" }),
+    Shop = Window:AddTab({ Title = "Shop", Icon = "🏪" }),
+	Misc = Window:AddTab({ Title = "Misc", Icon = "🎹" }),
 }
 local Options = Fluent.Options
 
