@@ -15,7 +15,7 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
     Notification = Window:AddTab({ Title = "Notification", Icon = "candy" }),
     Main = Window:AddTab({ Title = "Gereral", Icon = "home" }),
-    Setting = Window:AddTab({ Title = "Setting", Icon = "settings" }),
+    Setting = Window:AddTab({ Title = "Setting", Icon = "" }),
     Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
     Player = Window:AddTab({ Title = "Player", Icon = "baby" }),
     Teleport = Window:AddTab({ Title = "Teleport", Icon = "palmtree" }),
@@ -4512,6 +4512,11 @@ CamShake:Stop()
     end)
     Options.ToggleBypassTP:SetValue(true)
 end
+
+
+local ToggleAntiAfk = Tabs.                            Setting:Toggle("Anti AFK",true,function(value)
+ _G.AFK = value
+ end)
 
 
 
