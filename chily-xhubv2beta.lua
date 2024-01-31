@@ -2530,9 +2530,9 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>Sau Vài ngày chìm nghỉm<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>Ngày ra mắt 31/01/2024<Color=/>"):Display()
     wait(.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>Thì ChiLy-X HubV2 đã trở lại!!!!!<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>Thì ChiLy-X HubV2<Color=/>"):Display()
     wait(.14)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy sử dụng Fluxus để có trải nghiệm tốt!!<Color=/>"):Display()
     wait(.24)
@@ -2879,7 +2879,7 @@ M:AddDropdown({
     Name = "Select Weapon",
     Default = "",
     Options = WeaponList,
-    Flag = "Select Weapon",
+    Flag = "Melee",
     Save = true,
     Callback = function(Value)
         _G.SelectWeapon = Value
@@ -3619,11 +3619,17 @@ local EliteProgress = M:AddLabel("")
         })
         
 
-        M:AddToggle("ToggleCake", {Title = "Farm Katakuri", Default = false })
-ToggleCake:OnChanged(function(Value)
- _G.CakePrince = Value
-end)
-Options.ToggleCake:SetValue(false)
+        
+            M:AddToggle({
+            Name = "Auto Katakuri",
+            Default = false,
+            Flag = "Auto Katakuri",
+            Save = true,
+            Callback = function(Value)
+                _G.AutoDoughtBoss = Value
+                StopTween(_G.AutoDoughtBoss)
+            end    
+        })
 
 spawn(function()
     while task.wait() do
