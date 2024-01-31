@@ -26,15 +26,7 @@ spawn(function()
     wait(.36)
 end)
 
-local Window = Fluent:CreateWindow({
-    Key = "lethanhdat_yeuem",
-    Title = "ChiLy-X Hub",
-    SubTitle = "by lethanhdat_yeuem",
-    TabWidth = 150,
-    Size = UDim2.fromOffset(450, 300),
-    Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "White",
-    MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
+local Window = OrionLib:MakeWindow({Name = "ChiLy-X Hub", HidePremium = true, IntroText = "ChiLy-XHub Library", SaveConfig = true, ConfigFolder = "ChiLy-X Hub"})
 })
 local Tabs = {
     Notification = Window:AddTab({ Title = "Notification", Icon = "📺" }),
