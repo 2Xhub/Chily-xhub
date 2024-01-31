@@ -3382,8 +3382,8 @@ M:AddToggle({
 })
 
 M:AddToggle({
-    Name = "Auto Click[Kick]",
-    Default = false,
+    Name = "Auto Click",
+    Default = true,
     Flag = "Auto Click",
     Save = true,
     Callback = function(Value)
@@ -5616,7 +5616,7 @@ local Section = SV:AddSection({
         SV:AddButton({
             Name = "Join Id",
             Callback = function()
-                _G.AutoRejoin = false
+                _G.AutoRejoin = true
                 game:GetService("TeleportService"):TeleportToPlaceInstance(game.placeId,_G.Job, game.Players.LocalPlayer)
               end    
         })
