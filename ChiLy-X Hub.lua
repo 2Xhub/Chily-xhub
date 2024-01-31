@@ -5016,11 +5016,11 @@ spawn(function()
 end)
 
 
-local ToggleStore = Tabs.Fruit:AddToggle("ToggleStore", {Title = "Store Fruit", Default = false })
+local ToggleStore = Tabs.Fruit:AddToggle("ToggleStore", {Title = "Store Fruit", Default = true })
 ToggleStore:OnChanged(function(Value)
     _G.AutoStoreFruit = Value
 end)
-Options.ToggleStore:SetValue(false)
+Options.ToggleStore:SetValue(true)
 
 spawn(function()
     while task.wait() do
