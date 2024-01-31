@@ -2658,15 +2658,15 @@ local Section = W:AddSection({
 })
 
 
-W:AddLabel("Script By LMNGAMING")
+W:AddLabel("Script By lethanhdat")
 
 local Section = W:AddSection({
     Name = "Update"
 })
 
-W:AddLabel("[+] Night Hub is back!")
+W:AddLabel("[+] ChiLy-X Hub is back!")
 W:AddLabel("[+] I Not Skidder!")
-W:AddLabel("[+] I Will overcome Hirimii,MTriet Hub!!!")
+W:AddLabel("[+] I ChiLy-X Hub")
 W:AddLabel("[+] Load Script Faster!")
 
 local Section = W:AddSection({
@@ -3242,7 +3242,7 @@ end)
 local AttackList = {"0", "0.1", "0.175", "0.2", "0.25", "0.3", "0.35", "0.4", "0.45", "0.5", "0.55", "0.6", "0.65", "0.7", "0.75", "0.8", "0.85", "0.9", "0.95", "0.1"}
 M:AddDropdown({
 	Name = "FastAttack Delay",
-	Default = "0.5",
+	Default = "0.175",
 	Options = AttackList,
     Flag = "FastAttack Delay",
     Save = true,
@@ -3305,8 +3305,8 @@ local Section = M:AddSection({
 })
 
 M:AddToggle({
-    Name = "Bypass TP[BETA]",
-    Default = false,
+    Name = "Bypass TP",
+    Default = true,
     Flag = "Bypass TP",
     Save = true,
     Callback = function(Value)
@@ -3538,9 +3538,9 @@ spawn(function()
 end)
 
 ToggleBone = M:AddToggle({
-    Name = "Auto Farm Bone",
+    Name = "Farm Bone",
     Default = false,
-    Flag = "Auto Farm Bone",
+    Flag = "Farm Bone",
     Save = true,
     Callback = function(Value)
         _G.Auto_Bone = Value
@@ -3549,9 +3549,9 @@ ToggleBone = M:AddToggle({
 })
         
 ToggleRandom = M:AddToggle({
-        Name = "Auto Random Bone",
+        Name = "Random Bone",
         Default = false,
-        Flag = "Auto Random Bone",
+        Flag = "Random Bone",
         Save = true,
         Callback = function(Value)
             _G.Auto_Random_Bone = Value
