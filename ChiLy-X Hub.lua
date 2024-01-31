@@ -4513,9 +4513,6 @@ CamShake:Stop()
     Options.ToggleBypassTP:SetValue(true)
 end
 
-local ToggleAntiAfk = Tabs.                            Setting:AddToggle("ToggleAntiAfk", {Title = "Anti Afk", Default = true })
- _G.AFK = value
- end)
 
 
 local ToggleRemove = Tabs.Setting:AddToggle("ToggleRemove", {Title = "Anti Ban", Default = true })
